@@ -1,0 +1,21 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "markdown-link-check",
+            "severity": "warning",
+            "pattern": [
+                {
+                    "regexp": "^FILE:\\s+(.*)$",
+                    "file": 1
+                },
+                {
+                    "regexp": "^\\[✖\\]\\s+([^\\s]*)\\s+→\\s+(.*)$",
+                    "code": 2,
+                    "message": 1,
+
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

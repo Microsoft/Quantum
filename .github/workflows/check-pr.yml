@@ -1,0 +1,22 @@
+on: [pull_request]
+name: Check PR for issues
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - run: |
+        Get-ChildItem (Join-Path ".github" "problem-matchers") `
+          | ForEach-Object {
+            Write-Host "Adding matcher $_...";
+            Write-Host "::add-matcher::$_";
+          }
+      shell: pwsh
+    - name: markdownlint-cli
+      uses: nosborn/github-action-markdown-cli@v1.1.1
+      with:
+        files: .
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-verbose-mode: 'yes'
+      if: ${{ success() || failure() }}
