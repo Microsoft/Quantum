@@ -30,7 +30,7 @@ namespace Microsoft.Quantum.Samples
             var (optimizedParameters, optimizedBias) = await TrainWineModel.Run(
                 targetMachine
             );
-   
+
             // After training, we can use the validation data to test the accuracy
             // of our new classifier.
             var testMisses = await ValidateWineModel.Run(

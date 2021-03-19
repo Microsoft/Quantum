@@ -59,7 +59,7 @@ namespace Microsoft.Quantum.Samples
                     {
                         // Since we want each start point to run on its own
                         // instance of the full-state simulator, we create a new
-                        // instance here, using C# 8's "using var" syntax to
+                        // instance here, using C# 8's "using" syntax to
                         // ensure that the simulator is deallocated once
                         // training is complete for this start point.
                         using var targetMachine = new QuantumSimulator();
