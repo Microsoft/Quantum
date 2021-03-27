@@ -1,0 +1,47 @@
+"$schema": https://raw.githubusercontent.com/Microsoft/Quantum/master/Chemistry/Schema/broombridge-0.1.schema.json
+
+format: {version: '0.1'}
+generator: {source: nwchem, version: '6.8'}
+integral_sets:
+- basis_set: {name: sto-3g, type: gaussian}
+  coulomb_repulsion: {units: hartree, value: 9.157785839341493}
+  energy_offset: {units: hartree, value: 0.0}
+  fci_energy: {lower: 0.0, units: hartree, upper: 0.0, value: 0.0}
+  geometry:
+    atoms:
+    - coords: [-0.0628739, 0.0408292, 0.0895745]
+      name: O
+    - coords: [0.8946031, 0.0070392, 0.0154555]
+      name: H
+    - coords: [-0.3916119, -0.3336728, -0.7320515]
+      name: H
+    coordinate_system: cartesian
+    symmetry: c1
+    units: angstrom
+  hamiltonian:
+    one_electron_integrals:
+      format: sparse
+      units: hartree
+      values:
+      - [1, 1, -7.4544754172]
+      - [2, 2, -5.3294611768]
+    two_electron_integrals:
+      format: sparse
+      index_convention: mulliken
+      units: hartree
+      values:
+      - [1, 1, 1, 1, 0.8801590934]
+      - [2, 1, 2, 1, 0.0385141137]
+      - [2, 2, 1, 1, 0.5880960285]
+      - [2, 2, 2, 2, 0.5962135448]
+  initial_state_suggestions:
+  - state:
+      energy: {units: hartree, value: -74.96446716095127}
+      label: '|G>'
+      superposition:
+      - [1.0, (1a)+, (1b)+, '|0>']
+  metadata: {molecule_name: unknown}
+  n_electrons: 2
+  n_orbitals: 2
+  scf_energy: {units: hartree, value: -74.96321528}
+  scf_energy_offset: {units: hartree, value: -70.09220938}
