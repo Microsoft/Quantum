@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.Quantum.Sdk/0.15.2101125897">
+<Project Sdk="Microsoft.Quantum.Sdk/0.15.2104137572-alpha">
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <PlatformTarget>x64</PlatformTarget>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Quantum.Xunit" Version="0.15.2101125897" />
+    <PackageReference Include="Microsoft.Quantum.Xunit" Version="0.15.2104137572-alpha" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
