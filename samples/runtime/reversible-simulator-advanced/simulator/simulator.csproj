@@ -4,7 +4,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Quantum.Simulators" Version="0.16.2104138035" />
-    <PackageReference Include="Microsoft.Quantum.Standard" Version="0.16.2104138035" />
+    <PackageReference Include="Microsoft.Quantum.Simulators" Version="0.16.210426392-pull" />
+    <PackageReference Include="Microsoft.Quantum.Standard" Version="0.16.210426392-pull" />
   </ItemGroup>
 </Project>
