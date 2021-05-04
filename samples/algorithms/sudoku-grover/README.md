@@ -6,7 +6,6 @@ languages:
 products:
 - qdk
 description: "This sample uses Grover's search algorithm to solve Sudoku puzzles."
-
 ---
 
 # Solving Sudoku using Grover's Algorithm

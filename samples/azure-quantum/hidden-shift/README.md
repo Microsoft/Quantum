@@ -1,9 +1,6 @@
 ---
 page_type: sample
-author: cgranade
 description: Find hidden shifts in Boolean functions, using the Azure Quantum service
-ms.author: chgranad@microsoft.com
-ms.date: 01/25/2021
 languages:
 - qsharp
 - python

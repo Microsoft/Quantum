@@ -1,9 +1,6 @@
 ---
 page_type: sample
-author: cgranade
 description: Simulate evolution under the Ising model with the Trotter–Suzuki decomposition, using the Azure Quantum service
-ms.author: chgranad@microsoft.com
-ms.date: 01/25/2021
 languages:
 - qsharp
 products:

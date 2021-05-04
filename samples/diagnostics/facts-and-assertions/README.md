@@ -6,18 +6,6 @@ products:
 - qdk
 description: "Using facts and assertions to diagnose quantum programs in Q#."
 urlFragment: facts-and-assertions
-jupyter:
-  jupytext:
-    cell_markers: region,endregion
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.2'
-      jupytext_version: 1.5.2
-  kernelspec:
-    display_name: .NET (PowerShell)
-    language: PowerShell
-    name: .net-powershell
 ---
 
 # Using Facts and Assertions

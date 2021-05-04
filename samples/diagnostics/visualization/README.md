@@ -6,18 +6,6 @@ products:
 - qdk
 description: "Visualizing quantum programs in Q# notebooks."
 urlFragment: visualization
-jupyter:
-  jupytext:
-    cell_markers: region,endregion
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.2'
-      jupytext_version: 1.5.2
-  kernelspec:
-    display_name: .NET (PowerShell)
-    language: PowerShell
-    name: .net-powershell
 ---
 
 # Visualizing Quantum Programs

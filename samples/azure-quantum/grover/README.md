@@ -1,9 +1,6 @@
 ---
 page_type: sample
-author: cgranade
 description: Search unstructured data on quantum hardware, using the Azure Quantum service
-ms.author: chgranad@microsoft.com
-ms.date: 01/25/2021
 languages:
 - qsharp
 products:
