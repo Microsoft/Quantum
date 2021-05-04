@@ -1,5 +1,5 @@
 ﻿
-<Project Sdk="Microsoft.Quantum.Sdk/0.16.2104138035">
+<Project Sdk="Microsoft.Quantum.Sdk/0.16.210526492-pull">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -18,7 +18,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.7" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.7" />
     <PackageReference Include="PowerShellStandard.Library" Version="5.1.0" />
-    <PackageReference Include="Microsoft.Quantum.Chemistry" Version="0.16.2104138035" />
+    <PackageReference Include="Microsoft.Quantum.Chemistry" Version="0.16.210526492-pull" />
   </ItemGroup>
 
 </Project>
