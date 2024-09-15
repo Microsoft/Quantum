@@ -1,0 +1,267 @@
+
+"$schema": https://microsoft.com/qchem-0.1.schema.json
+
+bibliography:
+- url: https://www.nwchem-sw.org
+format:
+  version: '0.1'
+generator:
+  source: nwchem
+  version: '6.8'
+integral_sets:
+- basis_set:
+    name: sto-6g
+    type: gaussian
+  coulomb_repulsion:
+    units: hartree
+    value: 1.808022267415636
+  energy_offset:
+    units: hartree
+    value: 0.0
+  fci_energy:
+    lower: -2.31609928207
+    units: hartree
+    upper: -2.11609928207
+    value: -2.21609928207
+  geometry:
+    atoms:
+    - coords:
+      - 0.0
+      - 0.0
+      - -2.0
+      name: H
+    - coords:
+      - 0.0
+      - 0.0
+      - -1.0
+      name: H
+    - coords:
+      - 0.0
+      - 0.0
+      - 1.0
+      name: H
+    - coords:
+      - 0.0
+      - 0.0
+      - 2.0
+      name: H
+    coordinate_system: cartesian
+    symmetry: c1
+    units: angstrom
+  hamiltonian:
+    one_electron_integrals:
+      format: sparse
+      units: hartree
+      values:
+      - - 1
+        - 1
+        - -1.5049805671
+      - - 3
+        - 1
+        - 0.0753058407
+      - - 2
+        - 2
+        - -1.466684608
+      - - 4
+        - 2
+        - -0.0727063965
+      - - 3
+        - 3
+        - -1.0142861602
+      - - 4
+        - 4
+        - -0.9282476858
+    two_electron_integrals:
+      format: sparse
+      index_convention: mulliken
+      units: hartree
+      values:
+      - - 1
+        - 1
+        - 1
+        - 1
+        - 0.4032205054
+      - - 2
+        - 1
+        - 2
+        - 1
+        - 0.220304405
+      - - 3
+        - 1
+        - 1
+        - 1
+        - -0.0240916271
+      - - 3
+        - 1
+        - 3
+        - 1
+        - 0.1037909142
+      - - 3
+        - 1
+        - 2
+        - 2
+        - -0.0060560775
+      - - 4
+        - 1
+        - 2
+        - 1
+        - 0.004559734
+      - - 4
+        - 1
+        - 4
+        - 1
+        - 0.0928608307
+      - - 4
+        - 1
+        - 3
+        - 2
+        - -0.089903983
+      - - 2
+        - 2
+        - 1
+        - 1
+        - 0.4043723413
+      - - 2
+        - 2
+        - 2
+        - 2
+        - 0.4095277223
+      - - 3
+        - 2
+        - 2
+        - 1
+        - 0.0391020586
+      - - 3
+        - 2
+        - 3
+        - 2
+        - 0.0956903213
+      - - 4
+        - 2
+        - 1
+        - 1
+        - 0.0313633898
+      - - 4
+        - 2
+        - 3
+        - 1
+        - -0.1046201333
+      - - 4
+        - 2
+        - 2
+        - 2
+        - 0.0145393509
+      - - 4
+        - 2
+        - 4
+        - 2
+        - 0.1076434243
+      - - 4
+        - 2
+        - 3
+        - 3
+        - 0.0123701288
+      - - 3
+        - 3
+        - 1
+        - 1
+        - 0.3995463412
+      - - 3
+        - 3
+        - 3
+        - 1
+        - -0.0084748097
+      - - 3
+        - 3
+        - 2
+        - 2
+        - 0.4019759876
+      - - 3
+        - 3
+        - 3
+        - 3
+        - 0.4157382655
+      - - 4
+        - 3
+        - 2
+        - 1
+        - -0.2156985302
+      - - 4
+        - 3
+        - 4
+        - 1
+        - -0.0028138169
+      - - 4
+        - 3
+        - 3
+        - 2
+        - -0.0407564023
+      - - 4
+        - 3
+        - 4
+        - 3
+        - 0.2287297543
+      - - 4
+        - 4
+        - 1
+        - 1
+        - 0.4131748079
+      - - 4
+        - 4
+        - 3
+        - 1
+        - -0.0273067291
+      - - 4
+        - 4
+        - 2
+        - 2
+        - 0.414006111
+      - - 4
+        - 4
+        - 4
+        - 2
+        - 0.0338736975
+      - - 4
+        - 4
+        - 3
+        - 3
+        - 0.4253741338
+      - - 4
+        - 4
+        - 4
+        - 4
+        - 0.4418758092
+  initial_state_suggestions:
+  - state:
+      energy:
+        units: hartree
+        value: -2.216063381867682
+      label: '|G>'
+      superposition:
+      - - 0.9950000486809176
+        - (1a)+
+        - (2a)+
+        - (1b)+
+        - (2b)+
+        - '|vacuum>'
+      - - -0.09987443679426485
+        - (3a)+
+        - (3b)+
+        - (2b)
+        - (2a)
+        - (1a)+
+        - (2a)+
+        - (1b)+
+        - (2b)+
+        - '|vacuum>'
+  metadata:
+    molecule_name: unknown
+  n_electrons: 4
+  n_orbitals: 4
+  scf_energy:
+    units: hartree
+    value: -2.1456793
+  scf_energy_offset:
+    units: hartree
+    value: 0.0
+
