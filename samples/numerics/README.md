@@ -1,10 +1,11 @@
 # Numerics library samples
 
-The samples in this folder show how to use the numerics library.
-The `CustomModAdd` sample illustrates how to implement a custom modular addition operation.
-The `EvaluatingFunctions` sample shows how to evaluate smooth functions using a polynomial
-approximation in fixed-point arithmetic and `ResourceCounting` counts the resources of this
-operation.
+- **[Custom Mod Add](./custom-mod-add/)**:
+  This sample illustrates how to implement a custom modular addition operation.
+- **[Evaluating Functions](./evaluating-functions/)**:
+  This sample shows how to evaluate smooth functions using a polynomial approximation in fixed-point arithmetic.
+- **[Resource Counting](./resource-counting/)**:
+  This sample counts the resources used by `Evaluating Functions`.
 
 ## Running the Samples
 

@@ -10,6 +10,8 @@
   This sample demonstrates how to use Shor's algorithm to efficiently factor integers.
 - **[Reversible Logic Synthesis](./reversible-logic-synthesis/)**:
   This sample demonstrates how to use reversible logic synthesis to solve the hidden shift problem.
+  **[Repeat Until Success](./repeat-until-success/)**:
+  This sample demonstrates the implementations of two Repeat-Until-Success (RUS) algorithms in Q#.
 - **[CHSH Game](./chsh-game/)**:
   This sample demonstrates a famous nonlocal game which proves that no theory of local hidden variables can ever reproduce all the predictions of quantum mechanics.
 - **[Oracle Synthesis](./oracle-synthesis)**:

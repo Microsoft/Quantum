@@ -7,6 +7,8 @@
   It also shows how to simulate the same algorithms from Python and Jupyter.
 - **[Simple Algorithms](./simple-algorithms/)**:
   This sample covers several different basic quantum algorithms, and how each can be written in Q#.
+- **[Qrng](./qrng/)**:
+  This sample demonstrates the implementation of a simple quantum random number generator in Q#.
 - **[Intro to IQ#](./intro-to-iqsharp/)**:
   This samples explains how to create interactive notebooks using Jupyter and IQ#.
 - **[Simulation](./simulation/)**:
